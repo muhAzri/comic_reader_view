@@ -4,18 +4,16 @@ import 'package:flutter/widgets.dart';
 class ComicReaderViewIos extends StatelessWidget {
   final List<String> images;
   const ComicReaderViewIos({super.key, required this.images});
+  final String viewType = 'comic_reader_view';
 
   @override
   Widget build(BuildContext context) {
-    // This is used in the platform side to register the view.
-    const String viewType = '<platform-view-type>';
-    // Pass parameters to the platform side.
-    final Map<String, dynamic> creationParams = <String, dynamic>{};
-
     return UiKitView(
       viewType: viewType,
       layoutDirection: TextDirection.ltr,
-      creationParams: creationParams,
+      creationParams: {
+        'imageUrls': images,
+      },
       creationParamsCodec: const StandardMessageCodec(),
     );
   }

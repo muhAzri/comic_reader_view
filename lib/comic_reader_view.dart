@@ -1,11 +1,6 @@
-import 'dart:io';
-
 import 'package:comic_reader_view/comic_reader_view_android.dart';
 import 'package:comic_reader_view/comic_reader_view_ios.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 class ComicReaderView extends StatelessWidget {
@@ -14,15 +9,6 @@ class ComicReaderView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // // This is used in the platform side to register the view.
-    // if (Platform.isIOS) {}
-
-    // if (Platform.isAndroid) {
-    // return ComicReaderViewAndroid(images: images);
-    // }
-
-    // throw UnimplementedError();
-
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return ComicReaderViewAndroid(images: images);
