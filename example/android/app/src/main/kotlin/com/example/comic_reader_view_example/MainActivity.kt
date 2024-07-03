@@ -1,4 +1,4 @@
-package com.example.comic_reader_view_example
+package com.zrifapps.comic_reader_view_example
 
 import io.flutter.embedding.android.FlutterActivity
 

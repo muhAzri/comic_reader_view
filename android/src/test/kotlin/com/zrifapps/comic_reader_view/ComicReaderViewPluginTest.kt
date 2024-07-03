@@ -1,4 +1,4 @@
-package com.example.comic_reader_view
+package com.zrifapps.comic_reader_view
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
