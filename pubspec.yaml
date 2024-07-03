@@ -1,7 +1,7 @@
 name: comic_reader_view
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: "A versatile Flutter plugin that integrates native comic reader views into Flutter applications, providing a seamless and high-performance reading experience."
+version: 0.1.0
+homepage: https://github.com/muhAzri/comic_reader_view
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
