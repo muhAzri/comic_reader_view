@@ -55,9 +55,9 @@ class MyApp extends StatelessWidget {
 
 ### Compatibility
 
-- Dart: >=2.12.0 <3.0.0
+- Dart: >=3.4.0 <4.0.0
 
-- Flutter: >=2.8.0 <3.0.0
+- Flutter: >=3.3.0
 
 ### Issues and Feedback
 
